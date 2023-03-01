@@ -110,6 +110,11 @@ def main():
             b64 = base64.b64encode(csv.encode()).decode()
             href = f'<a href="data:file/csv;base64,{b64}" download="predicted_boxes.csv">Download predicted bounding boxes as CSV file</a>'
             st.markdown(href, unsafe_allow_html=True)
+            
+    st.markdown('---')
+    st.write('Copyright © Ibrahim Syed. Technological University Dublin. 2023')
+    st.write('This material is provided for research purposes only. Any other use, including commercial or non-commercial use, is strictly prohibited without the express written consent of the copyright owner.')
+    st.write('For permission to use this material, please contact Ibrahim Syed at ibrahim.syed@tudublin.ie.')
 
 # Run Stream
 
