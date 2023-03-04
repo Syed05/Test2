@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'distress'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FBC3490819CF4378AEA55DEE469B78A0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_956E221F9CCA4D518D4EC2EE26E746E9 }}
